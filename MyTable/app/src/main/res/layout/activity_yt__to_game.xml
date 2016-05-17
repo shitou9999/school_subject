@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.administrator.mytable.School_yt_ToGame">
+    <fragment
+        android:id="@+id/fragmentVip"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:name="com.example.administrator.mytable.School.main_fragment.Head_Fragment">
+    </fragment>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:tabIndicatorColor="#1477DD"
+        app:tabMode="fixed"
+        app:tabTextColor="#676767"
+        app:tabSelectedTextColor="@color/colorLan"
+        style="@style/MyCustomTabLayout"
+        app:tabTextAppearance="@style/CustomTabLayoutTextAppearance">
+    </android.support.design.widget.TabLayout>
+    <!--app:tabIndicatorColor="#1477DD"-->
+    <!--style="@style/MyCustomTabLayout"-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpagerVip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

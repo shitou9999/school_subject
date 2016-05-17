@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".School.fragment_no_need.Go_Aborad_Fragment1">
+    <LinearLayout
+        android:id="@+id/iBack"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorLan"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/school_msg_to_left"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="校园活动"
+            android:textColor="#ffff"
+            android:textSize="20dp"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+</RelativeLayout>

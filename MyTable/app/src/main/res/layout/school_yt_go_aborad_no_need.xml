@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/iBack"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="考研出国"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:background="@color/colorLan"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/school_msg_to_left"/>
+     <fragment
+         android:layout_width="match_parent"
+         android:layout_height="48dp"
+         android:name="com.example.administrator.mytable.School.fragment_no_need.Go_Aborad_Fragment2">
+
+     </fragment>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+</LinearLayout>

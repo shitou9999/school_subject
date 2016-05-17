@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5"
+    tools:context="com.example.administrator.mytable.School.yt_LinkMan.yt_LinkMan">
+    <LinearLayout
+        android:id="@+id/re01"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorLan"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/school_msg_to_left"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="联系人"
+            android:textColor="#ffff"
+            android:textSize="20dp"
+            android:gravity="center_vertical"/>
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/re01">
+    </FrameLayout>
+</RelativeLayout>
