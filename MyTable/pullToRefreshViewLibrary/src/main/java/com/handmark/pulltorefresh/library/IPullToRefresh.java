@@ -176,7 +176,7 @@ public interface IPullToRefresh<T extends View> {
 	 * Set OnPullEventListener for the Widget
 	 * 
 	 * @param listener - Listener to be used when the Widget has a pull event to
-	 *            propogate.
+	 *            propagate.
 	 */
 	public void setOnPullEventListener(OnPullEventListener<T> listener);
 
